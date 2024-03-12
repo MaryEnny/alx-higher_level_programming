@@ -1,3 +1,2 @@
-#!/bin/bash/python3
-python_script = "$PYFILE"
-python "$python_script"
+#!/bin/bash
+python3 "$PYFILE"
