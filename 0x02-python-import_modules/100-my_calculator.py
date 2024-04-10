@@ -17,6 +17,6 @@ if __name__ == "__main__":
     elif sys.argv[2] == "+":
         print("{} + {} = {}".format(a, b, (a + b)))
     elif sys.argv[2] == "/":
-        print("{} / {} = {}".format(a, b, (a / b)))
+        print("{} / {} = {:1}".format(a, b, (a / b)))
     else:
         print("{} * {} = {}".format(a, b, (a * b)))
